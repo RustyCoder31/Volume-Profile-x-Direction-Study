@@ -1,0 +1,40 @@
+2026-11-12 01:40:23.952 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-11-12 01:40:23.962 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2026-11-12 01:40:23.962 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+50/219 days, 85s
+100/219 days, 174s
+150/219 days, 283s
+200/219 days, 348s
+days asked 219, run 205, skipped 14, errors 0
+trials 9534 -> Results/trials_sealed2026.csv   skipped list -> Results/trials_sealed2026_skipped.csv   (381s)
+outcome           AMBIGUOUS  FAIL  PASS  TIMEOUT
+mode target_type                                
+C    atr_15m              3   344   326       28
+     atr_5m               6   408   406       13
+     fixed                1   343   342       18
+     opposite             0   350   248       37
+D    atr_15m              3   336   334       28
+     atr_5m               6   405   409       13
+     fixed                1   339   346       18
+     opposite             0   341   233       42
+Live atr_15m              2   423   444       71
+     atr_5m               8   530   508       26
+     fixed                2   431   469       44
+     opposite             0   441   333       75
+
+total points per mode and target type (days run: 204)
+                  trials       points       avg  pass_rate_%
+mode target_type                                            
+C    atr_15m         701 -1169.142857  -1.67499         48.7
+     atr_5m          833   -28.053571 -0.033922         49.9
+     fixed           704      101.992  0.145081         49.9
+     opposite        635  -752.282475 -1.184697         41.5
+D    atr_15m         701  -528.964286 -0.757828         49.9
+     atr_5m          833   -85.160714 -0.102975         50.2
+     fixed           704      492.129  0.700041         50.5
+     opposite        616  -292.823375 -0.475363         40.6
+Live atr_15m         940  1242.482143  1.324608         51.2
+     atr_5m         1072  -752.142857 -0.706901         48.9
+     fixed           946     2397.211  2.539418         52.1
+     opposite        849    1318.4143  1.552903         43.0
+daily totals -> Results/trials_sealed2026_daily.csv

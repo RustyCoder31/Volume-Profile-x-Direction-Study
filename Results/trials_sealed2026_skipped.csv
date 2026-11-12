@@ -1,0 +1,15 @@
+day,reason
+2026-01-01,no data
+2026-01-19,early end (last bar 2026-01-19 12:59:00-05:00)
+2026-02-16,early end (last bar 2026-02-16 12:59:00-05:00)
+2026-03-17,too many missing (15)
+2026-03-18,too many missing (32)
+2026-04-03,early end (last bar 2026-04-03 09:14:00-04:00)
+2026-05-25,early end (last bar 2026-05-25 12:59:00-04:00)
+2026-06-19,early end (last bar 2026-06-19 12:59:00-04:00)
+2026-07-03,early end (last bar 2026-07-03 12:59:00-04:00)
+2026-09-07,early end (last bar 2026-09-07 12:59:00-04:00)
+2026-10-06,too many missing (70)
+2026-10-12,late start (first bar 2026-10-12 14:34:00-04:00)
+2026-10-15,late start (first bar 2026-10-14 18:16:00-04:00)
+2026-10-16,too many missing (44)

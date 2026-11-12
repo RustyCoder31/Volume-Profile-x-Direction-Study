@@ -1,0 +1,17 @@
+# environment and caches
+.vpxdir/
+__pycache__/
+*.pyc
+
+# data stays local (third party, and it holds the sealed years)
+data/
+
+# local only, kept on disk but not shared
+Results/trials_explore.csv
+Results/trials_explore_daily.csv
+Results/trials_explore_skipped.csv
+Results/trials_test*.csv
+*.pkl
+data_validate.py
+Null Model/
+upper_pct_hist.png
